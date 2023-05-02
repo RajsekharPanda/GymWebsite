@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Salsa&display=swap");
+
+/* @import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap'); */
+
+@import url("https://fonts.googleapis.com/css2?family=Saira&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+#wrapper {
+  background-color: black;
+}
+
+header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./img/background-pic1.jpg");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
+
+nav {
+  height: 4em;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLogo {
+  padding-left: 2rem;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+li {
+  margin: 0px 24px 0px 0px;
+  font-family: "Russo One", sans-serif;
+}
+
+button {
+  padding: 4px 8px;
+  position: absolute;
+  height: 4em;
+  top: 1em;
+  right: 3px;
+  height: 35px;
+  width: 5em;
+
+  font-size: 1em;
+  background-color: #2c73eb;
+  color: white;
+  border-radius: 9px;
+  font-family: "Russo One", sans-serif;
+  border: none;
+}
+
+/* .text {
+  display: flex;
+  align-items: center;
+} */
+
+.container-1 {
+  width: 100vw;
+  color: white;
+  height: calc(100vh - 4em);
+  /* height: 100vh; */
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 0 11.6rem;
+  position: relative;
+}
+
+.line1 {
+  font-family: "Salsa", cursive;
+  font-size: 80px;
+  /* padding: 8vw; */
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  gap: 1rem;
+}
+
+.blueFont {
+  /* padding: 0px 20px; */
+  /* color: #ff0004; */
+  color: #2c73eb;
+}
+
+.line2 {
+  font-family: "Russo One", sans-serif;
+  font-size: 24.8px;
+  width: 100vw;
+}
+
+.scroll {
+  /* transform-origin: 0 0; */
+  transform: rotate(90deg);
+  position: absolute;
+  left: 0;
+  bottom: 9rem;
+  font-family: "Russo One", sans-serif;
+}
+
+.location {
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9rem;
+}
+
+.locationText {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 40vw;
+}
+
+.location h1 {
+  /* padding-left: 20rem;
+  padding-top: 20rem; */
+  font-size: 4rem;
+  font-family: "Russo One", sans-serif;
+}
+
+.location p {
+  /* padding-left: 20rem; */
+  font-weight: 900;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+/* 
+.map{
+  z-index: 4;
+  position: absolute;
+  left: 60%;
+  top: 130%;
+  width: 100%;
+  will-change: transform;
+  transform: translate(0px);
+} */
+
+.aboutUs {
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  background-color: black;
+  padding-top: 2rem;
+  /* padding-top: 2rem; */
+  position: relative;
+  overflow: hidden;
+}
+
+.information h1 {
+  /* z-index: 0; */
+  font-size: 6.5rem;
+  /* font: bolder; */
+  font-family: sans-serif;
+
+  opacity: 0.1;
+  position: absolute;
+
+  transform: translate(-50%, -4.7rem);
+  left: 50%;
+  top: 3.3rem;
+}
+
+.upper {
+  display: flex;
+  gap: 1.2rem;
+  width: 100vw;
+  /* text-align: center; */
+  justify-content: center;
+  font-size: 2.7rem;
+  font-family: sans-serif;
+  font-weight: 700;
+  padding-top: 1.3rem;
+}
+
+.dataContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 6.5rem;
+  padding-left: 7rem;
+  gap: 1rem;
+  /* width: 100vw; */
+}
+
+.setPic {
+  width: 38rem;
+  height: 34rem;
+  /* position: absolute; */
+}
+
+.aboutOurText {
+  font-family: "Poppins", sans-serif;
+  width: 30rem;
+  font-size: 1.7rem;
+  padding-right: 7rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  /* font-family: "Russo One", sans-serif; */
+}
+
+.numbers {
+  position: absolute;
+  top: 1rem;
+  left: 13rem;
+  z-index: 3;
+  font-size: 15rem;
+  color: white;
+  font-family: "Saira", sans-serif;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.4rem;
+}
+
+.classesWeDo {
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  background-color: black;
+  padding-top: 5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.setPic1 {
+  width: 44rem;
+  height: 24rem;
+}
+
+#classes {
+  margin-top: 12rem;
+  padding-left: 7rem;
+}
+
+#number02 {
+  top: -3rem;
+  left: 66rem;
+}
+#fontStyle02 {
+  font-family: "Russo One", sans-serif;
+}
+
+#page2 {
+  /* padding-top: 5.5 rem; */
+  margin-top: 5.5rem;
+}
+
+#page2 .information h1 {
+  top: 4rem;
+}
+
+.testimonial {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./img/backgroundImageTestimonial.jpg");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  color: white;
+  background-color: black;
+  padding-top: 5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonial h1 {
+  top: 7rem;
+}
+
+.allset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* top: 10rem; */
+  height: 100vh;
+}
+
+.ownerImg {
+  margin-top: 5rem;
+  gap: 13rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 40vh;
+  width: 40vw;
+  position: relative;
+  bottom: 7rem;
+}
+
+.testimonialText {
+  display: flex;
+  z-index: +1;
+  position: relative;
+  bottom: 45rem;
+  left: 47rem;
+  font-size: 1.7rem;
+  font-weight: bolder;
+  gap: 0.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.ownerNames {
+  display: flex;
+  position: relative;
+  gap: 15rem;
+  font-size: 1.6rem;
+  bottom: 9rem;
+}
+
+.membership {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  /* overflow: hidden; */
+}
+
+/* #number04 {
+  left: 65rem;
+  z-index: 9;
+} */
+
+.cardes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  background: red
+}
+
+.card1,
+.card2,
+.card3 {
+  background-color: white;
+  height: 30rem;
+  width: 20rem;
+}
+
+.sizeImg {
+  width: 2rem;
+}
