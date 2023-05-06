@@ -385,6 +385,16 @@ button {
   gap: 2rem;
   font-size: 1.4rem;
   transform: scale(1);
+  /* font-family: "Russo One", sans-serif; */
+}
+
+.card1 h2, .card2 h2,.card3 h2{
+  font-family: "Saira", sans-serif;
+}
+
+.membershipAmount{
+  font-family: "Russo One", sans-serif;
+
 }
 
 .sizeImg {
