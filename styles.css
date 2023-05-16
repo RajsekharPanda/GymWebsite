@@ -758,10 +758,60 @@ display: none;
   justify-content: center;
 }
 
-/* .testimonial{
-  display: flex;
-  flex-direction: column;
-  background: fixed;
-} */
+.membership{
+  height: 200%;
+}
 
+
+
+
+
+
+
+
+}
+@media screen and (max-width:1050px) {
+  .bottomPartOfFaq{
+    display: none;
+  }
+
+  .questionNumber,
+  .upArrow
+  {
+    display: none;
+  }
+
+  .q1,
+  .q2,
+  .q3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cardes{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    background: fixed;
+    
+  }
+  
+  .card1,
+  .card2,
+  .card3 {
+    height: 20rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    gap: 0.4rem;
+  }
+  
+  .sizeImg{
+    width: 2rem;
+  }
+  
+  .bottomPartOfFaq{
+    display: none;
+  }
 }
